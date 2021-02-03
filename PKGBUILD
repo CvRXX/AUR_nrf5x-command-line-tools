@@ -13,7 +13,7 @@ provides=('nrfjprog')
 conflicts=('nrfjprog')
 options=()
 _source="https://www.nordicsemi.com/-/media/Software-and-other-downloads/Desktop-software/nRF-command-line-tools/sw/Versions-10-x-x/${pkgver//./-}/nRFCommandLineTools${pkgver//./}Linux"
-source_x86_64=("${_source}amd64tar.gz")
+source_x86_64=("${_source}amd64.tar.gz")
 md5sums_x86_64=('a5d88595f13296614f07a8e8da6716b6')
 
 package() {
